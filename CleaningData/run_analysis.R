@@ -132,6 +132,8 @@ tbl_tidy_mean <- tbl_tidy %>%
 
 write.table(tbl_tidy_mean,"TidyDF_AndreaAmaduzzi.txt",row.name=FALSE)
 
+View(tbl_tidy_mean)
+
 
 
 
