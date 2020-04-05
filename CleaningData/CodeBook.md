@@ -51,8 +51,6 @@ The following files are available for the train and test data. Their description
 
 # *What run_analysis.R do to perform the Cleaning Data Assignment*
 
-# *All steps of the Cleaning Data Assignment*
-
 
 ## ---------- _First part is about preparing R environment_ -----------
 
