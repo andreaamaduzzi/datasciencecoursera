@@ -20,5 +20,5 @@ plot(df$Global_active_power~df$DateTime,
      type = "l",
      xlab="",
      ylab="Global Active Power(kilowatts)")
-dev.copy(png, file = "ExploratoryDataAnalysis/Week1/Plot2.png")  ## Copy my plot to a PNG file
+dev.copy(png, file = "ExploratoryDataAnalysis/Week1/Plot2.png", width=480, height=480)  ## Copy my plot to a PNG file
 dev.off()
