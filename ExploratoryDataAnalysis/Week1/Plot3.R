@@ -15,7 +15,7 @@ df <- df %>%
     mutate(Date=as.Date(strptime(Date, "%d/%m/%Y"))) %>% 
     subset(Date>="2007-02-01" & Date<="2007-02-02")
 
-png(file = "ExploratoryDataAnalysis/Week1/Plot3.png")
+png(file = "ExploratoryDataAnalysis/Week1/Plot3.png", width=480, height=480)
 
 plot(df$Sub_metering_1~df$DateTime, 
      type = "l",
