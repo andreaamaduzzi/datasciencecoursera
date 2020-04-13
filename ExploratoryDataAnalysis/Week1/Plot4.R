@@ -16,7 +16,7 @@ df <- df %>%
     subset(Date>="2007-02-01" & Date<="2007-02-02")
 
 
-png(file = "ExploratoryDataAnalysis/Week1/Plot4.png")
+png(file = "ExploratoryDataAnalysis/Week1/Plot4.png", width=480, height=480)
 
 par(mfrow = c(2,2))
 plot(df$Global_active_power~df$DateTime, 
