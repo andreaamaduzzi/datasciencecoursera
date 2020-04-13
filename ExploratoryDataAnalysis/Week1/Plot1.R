@@ -21,5 +21,5 @@ hist(df$Global_active_power,
      main = "Global Active Power",
      xlab="Global Active Power(kilowatts)",
      ylab="Frequency")
-dev.copy(png, file = "ExploratoryDataAnalysis/Week1/Plot1.png")  ## Copy my plot to a PNG file
+dev.copy(png, file = "ExploratoryDataAnalysis/Week1/Plot1.png", width=480, height=480)  ## Copy my plot to a PNG file
 dev.off()
